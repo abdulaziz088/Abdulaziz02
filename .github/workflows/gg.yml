@@ -12,11 +12,8 @@ on:
 jobs:
   build:
 
-    runs-on: ${{matrix.os}} 
-    strategy:
-      matrix:
-       os: [ubunyu-latest, windows-latest, macOS-latest]
-
+    runs-on: ubunyu-latest 
+   
     steps:
     - uses: actions/checkout@v2
     
