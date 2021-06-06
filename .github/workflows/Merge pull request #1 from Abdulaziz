@@ -34,6 +34,6 @@ jobs:
       with:
         image: abdulaziz9800/demo
         registry: docker.io
-        username: ${{ secrets.DOCKER_USERNAME }}
-        password: ${{ secrets.DOCKER_PASSWORD }}
+        username: ${{ abdulaziz9800/demo:tagname }}
+        password: ${{ 61ec9ebd-2d99-459a-96ba-b9db1a308813 }}
  
